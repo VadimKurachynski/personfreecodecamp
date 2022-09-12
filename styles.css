@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.nav {
+    display:block;
+    border: 2px solid red;
+    height: 90px;
+    background-color: rgb(189, 17, 17);
+    width: 100%;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    border: 2px solid green;
+   
+    justify-content: space-around;
+
+}
