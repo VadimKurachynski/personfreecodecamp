@@ -31,7 +31,7 @@ body {
 }
 
 .nav-li:hover {
-    background: rgb(116, 48, 54);
+    background: rgb(105, 35, 35);
 }
 
 .nav-li a {
@@ -60,7 +60,7 @@ body {
 }
 .welcom_web{
     font-size: 30px;
-    
+    color: crimson;
 }
 
 .projects-section {
