@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
@@ -10,11 +10,12 @@ body {
 }
 
 .nav {
-    background-color: rgb(7, 10, 8);
+    background-color: rgb(172, 56, 20);
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .nav-s {
@@ -50,13 +51,12 @@ body {
     align-items: center;
 }
 
-.welcome-section {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .welcom_Hey{
     color: aliceblue; 
     font-weight: 600;
      font-size: 70px;
+    
 }
 .welcom_web{
     font-size: 30px;
