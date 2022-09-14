@@ -43,26 +43,43 @@ body {
 .welcome-section {
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 31, 31);
+    background-color: rgb(105, 35, 35);
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
+
 .welcome-section {
-    font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcom_Hey{
+    color: aliceblue; 
+    font-weight: 600;
+     font-size: 70px;
+}
+.welcom_web{
+    font-size: 30px;
+    
 }
 
-.projects-section{
+.projects-section {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 
-.contact-section{
+.contact-section {
     width: 100%;
-    height: 80vh; 
+    height: 90vh;
+    background-color: rgb(221, 6, 6);
+    color: aliceblue;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
     background-color: rgb(221, 6, 6);
     color: aliceblue;
 }
