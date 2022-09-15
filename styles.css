@@ -81,10 +81,6 @@ body {
    margin: 100px 0px 0px 0px;
 }
 
-
-
-
-
 .contact-section {
     display: flex;
     flex-direction: column;
@@ -116,10 +112,8 @@ body {
     transition: 0.5s;
 }
 .contact-details:hover{
-   
     transform: translatey(10px);
 }
-
 
 .footer {
     display: flex;
@@ -136,5 +130,4 @@ body {
 .footer a {
     text-decoration: none;
     color: aliceblue;
-
 }
