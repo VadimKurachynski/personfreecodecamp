@@ -55,12 +55,10 @@ body {
     align-items: center;
 }
 
-
 .welcom_Hey {
     color: aliceblue;
     font-weight: 600;
     font-size: 70px;
-
 }
 
 .welcom_web {
@@ -74,9 +72,6 @@ body {
     width: 100%;
     height: 100vh;
     background-color: rgb(87, 70, 70);
-    
-    
-    
 }
 
 .projects-section-header{
