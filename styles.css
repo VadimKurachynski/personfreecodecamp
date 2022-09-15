@@ -83,15 +83,20 @@ body {
 
 .grid-container{
     display: grid;
+    gap: 5px 20px;
     background-color: #eee;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+    justify-content: space-around;
+    justify-items: stretch;
+    align-items: stretch;
     border: 2px red solid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
+.grid-item{
+    border: 2px rgb(29, 9, 117) solid;
+
+}
 .contact-section {
     display: flex;
     flex-direction: column;
