@@ -81,6 +81,14 @@ body {
    margin: 100px 0px 0px 0px;
 }
 
+.grid-container{
+    display: grid;
+    background-color: #eee;
+    border: 2px red solid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 .contact-section {
     display: flex;
     flex-direction: column;
