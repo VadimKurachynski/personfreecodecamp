@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -52,35 +56,90 @@ body {
 }
 
 
-.welcom_Hey{
-    color: aliceblue; 
+.welcom_Hey {
+    color: aliceblue;
     font-weight: 600;
-     font-size: 70px;
-    
+    font-size: 70px;
+
 }
-.welcom_web{
+
+.welcom_web {
     font-size: 30px;
     color: crimson;
 }
 
 .projects-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
     background-color: rgb(87, 70, 70);
-    color: aliceblue;
+    
+    
+    
 }
 
+.projects-section-header{
+   font-size: 60px; 
+   color: aliceblue;
+   text-align: center;
+   margin: 100px 0px 0px 0px;
+}
+
+
+
+
+
 .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 90vh;
     background-color: rgb(49, 72, 82);
     color: aliceblue;
 }
 
+.contact-section-header{
+    font-size: 50px;
+    margin: 0px 0px 50px 0px;
+}
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+  
+  justify-content: center;
+}
+
+.contact-details {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0px 30px 0px 30px;
+    transition: 0.5s;
+}
+.contact-details:hover{
+   
+    transform: translatey(10px);
+}
+
+
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     border-top: 5px solid rgb(172, 56, 20);
     width: 100%;
     height: 10vh;
     background-color: rgb(49, 72, 82);
     color: aliceblue;
+    font-size: 25px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+
 }
