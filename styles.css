@@ -84,6 +84,9 @@ body {
 .grid-container{
     display: grid;
     background-color: #eee;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     border: 2px red solid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
