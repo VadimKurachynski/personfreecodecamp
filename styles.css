@@ -136,6 +136,9 @@ body {
 .code :hover{
     color: rgb(246, 246, 250);
 }
+.grid-item:hover .code {
+    color: #ff7f50;
+  }
 .contact-section {
     display: flex;
     flex-direction: column;
