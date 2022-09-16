@@ -129,6 +129,13 @@ body {
     padding: 1rem;
 }
 
+.code{
+    color: rgb(33, 33, 43);
+    transition: color 0.3s ease-out;
+}
+.code :hover{
+    color: rgb(246, 246, 250);
+}
 .contact-section {
     display: flex;
     flex-direction: column;
