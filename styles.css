@@ -86,8 +86,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 20px;
-    background-color: #eee;
-    border: 2px red solid;
+  
+    
 }
 
 @media (max-width: 1200px) {
@@ -105,7 +105,7 @@ body {
 .grid-item {
     display: flex;
     flex-direction: column;
-    border: 2px rgb(219, 15, 15) solid;
+   
     margin: 10px;
     text-align: center;
    
@@ -120,12 +120,12 @@ body {
 }
 
 .project-title {
-    background-color: rgb(71, 71, 73);
+    background-color: rgb(33, 33, 43);
     color: aliceblue;
     flex: 1 1 auto;
 }
 .project-title p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem;
 }
 
