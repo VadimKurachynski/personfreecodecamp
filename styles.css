@@ -84,12 +84,9 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   
-  justify-content:center;
+    justify-content:center;
     gap:20px;
     background-color: #eee;
-   
-   
     border: 2px red solid;
 
 }
@@ -98,6 +95,11 @@ body {
     border: 2px rgb(219, 15, 15) solid;
 margin:10px;
 text-align: center;
+}
+
+.grid-item img{
+    max-width: 100%;
+    height: auto;
 }
 
 .contact-section {
