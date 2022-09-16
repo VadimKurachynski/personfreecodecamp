@@ -70,7 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-   flex: 1 1 auto;
+    flex: 1 1 auto;
     background-color: rgb(87, 70, 70);
 }
 
@@ -84,22 +84,32 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content:center;
-    gap:20px;
+    justify-content: center;
+    gap: 20px;
     background-color: #eee;
     border: 2px red solid;
-
 }
 
 .grid-item {
+    display: flex;
+    flex-direction: column;
     border: 2px rgb(219, 15, 15) solid;
-margin:10px;
-text-align: center;
+    margin: 10px;
+    text-align: center;
 }
 
-.grid-item img{
+.grid-item img {
+
     max-width: 100%;
     height: auto;
+}
+
+.project-title {
+    background-color: blue;
+    flex: 1 1 auto;
+
+
+
 }
 
 .contact-section {
